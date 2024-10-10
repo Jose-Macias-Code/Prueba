@@ -20,7 +20,7 @@ Una aplicación interactiva que permite a los usuarios gestionar una lista de su
 
 Puedes probar la aplicación en vivo a través del siguiente enlace de GitHub Pages:
 
-[**Live Mis Películas Favoritas**](https://tu-enlace.github.io/tu-repositorio/)
+[**Live Mis Películas Favoritas**]( https://jose-macias-code.github.io/Prueba/)
 
 ## 🚀 Uso
 
