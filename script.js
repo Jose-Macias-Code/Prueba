@@ -1,14 +1,18 @@
 const movieList = document.getElementById('movie-list');
 const addMovieButton = document.getElementById('add-movie-btn');
 const newMovieInput = document.getElementById('new-movie');
+const errorMessage = document.getElementById('error-message');
 
 function addMovie() {
     const movieName = newMovieInput.value.trim();
 
     if (movieName === "") {
-        alert("No se puede agregar una película vacía.");
+        errorMessage.textContent = "No se puede agregar una película vacía.";
+        errorMessage.style.display = "block";
         return;
     }
+
+    errorMessage.style.display = "none";
 
     const newListItem = document.createElement('li');
     newListItem.textContent = movieName;

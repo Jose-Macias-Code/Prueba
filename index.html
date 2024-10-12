@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Películas Favoritas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -19,8 +20,11 @@
         </ol>
 
         <form class="movie-form" id="movie-form">
-            <input type="text" id="new-movie" placeholder="Nueva película">
-            <button type="button" class="add-movie-btn" id="add-movie-btn">Agregar Película</button>
+            <div class="controls">
+                <input type="text" id="new-movie" placeholder="Nueva película">
+                <button type="button" class="add-movie-btn" id="add-movie-btn">Agregar Película</button>
+            </div>
+            <div class="error-message" id="error-message"></div>
         </form>
     </section>
 
